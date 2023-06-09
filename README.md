@@ -21,3 +21,8 @@ It exposes two endpoints: /etl to trigger the ETL process and /data to retrieve 
 3. run queryDB.bash to check current database
 4. run etl.bash to process etl
 5. run queryDB.bash again to check if etl processed successfully.
+
+## Docker Image
+- docker pull picnik97/etlproject-app
+- docker pull picnik97/postgres
+- docker pull picnik97/adminer
